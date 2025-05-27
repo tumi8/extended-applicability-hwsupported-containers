@@ -1,0 +1,18 @@
+title: Reproduction and Additional Results
+
+author: Florian Wiedner, Alexander Daichendt
+
+description: >-
+  Concurrency of Hardware-Supported Containers in Low-Latency Networking
+baseurl: "/extended-applicability-hwsupported-containers" # the subpath of your site, e.g. /blog
+url: "https://tumi8.github.io" # the base hostname & protocol for your site
+twitter_username:
+github_username: tumi8
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-inline-svg
+
+svg:
+  optimize: true

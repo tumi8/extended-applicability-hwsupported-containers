@@ -1,0 +1,52 @@
+---
+layout: base
+---
+
+<div class="show-on-mobile">
+  {%- include nav_main.html -%}
+</div>
+
+<div class="container page-body">
+
+  <div class="row">
+    <div class="two columns hide-on-mobile">
+      {%- include nav.html -%}
+    </div>
+    <div class="ten columns">
+
+      <div class="content">
+
+        {% if page.image %}
+        <div class="csc-textpic-imagewrap">
+          <dl class="csc-textpic-image csc-textpic-last">
+            <img src="{{site.baseurl}}/{{page.image.url}}" alt="{{page.image.title}}" title="{{page.image.title}}">
+            {% if page.image.title %}
+            <dd class="csc-textpic-caption" style="padding-bottom: 1em">{{page.image.title}}<span class="imagecopyright">{{page.image.copyright}}</span></dd>
+            {% endif %}
+          </dl>
+        </div>
+        {% endif %}
+
+        <article>
+
+          <h1>
+            {{ page.title | default: site.title |escape }}
+          </h1>
+
+          {% if page.description %}
+          <p class="lead-text">
+            {{ page.description | escape }}
+
+          </p>
+          {% endif %}
+
+          {{content}}
+
+        </article>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+

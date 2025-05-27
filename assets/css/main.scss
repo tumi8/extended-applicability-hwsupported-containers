@@ -1,0 +1,78 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+$baseurl: "{{ site.baseurl }}";
+
+@import "syntax";
+
+@import "style-1.0.0";
+
+$lochmara: #3070b3;
+$royalblue: #4889ce;
+$nightrider: #333333;
+$white: #ffffff;
+
+$citrus: #a0af00;
+$tahitigold: #e37222;
+
+$solitude-light: #f3f7f8;
+$whitesmoke: #f7f7f7;
+$whitesmoke-darker: #f4f4f4;
+$gainsboro: #e6e6e6;
+$solitude: #dbe2e9;
+$verylightgrey: #cdcdcd;
+$darkgray: #b3b3b3;
+$suvagrey: #8a8a8a;
+$grey: #777777;
+$empress: #737373;
+$charcoal: #4c4c4c;
+$black: #000000;
+
+footer {
+  margin-top: 6em;
+  line-height: 1.55em;
+}
+
+.page-body {
+  border-top: 1px solid $gainsboro;
+}
+
+.main-nav {
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
+@media (max-width: 799px) {
+  .logo-bar {
+    padding: 26px 0 18px 0;
+  }
+}
+
+.logo-bar__link {
+  color: #3070b3 !important;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.sitefooter {
+  .meta-nav {
+    padding: 1em;
+    margin-bottom: 2em;
+  }
+}
+
+
+.card {
+  padding: 1rem;
+  border: 1px solid $gainsboro;
+  margin-bottom: 2rem;
+
+  header {
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+
+  .content {
+    margin-bottom: 1rem;
+  }
+}

@@ -1,0 +1,23 @@
+toc:
+  - name: Home
+    url: /
+  - name: Setup
+    url: /setup
+  - name: Line Topology
+    subfolderitems:
+      - name: no pin | rate maximal
+        url: /line/nopin-maxpps
+      - name: per node pin | rate maximal
+        url: /line/pernodepin-maxpps
+      - name: per core pin | rate maximal
+        url: /line/percorepin-maxpps
+      - name: no pin | 17k pps 
+        url: /line/nopin-17kpps
+      - name: per node pin | 17k pps
+        url: /line/pernodepin-17kpps
+  - name: Complex Topology
+    subfolderitems:
+      - name: 1 queue
+        url: /complex/1queue  
+      - name: 4 queues
+        url: /complex/4queues

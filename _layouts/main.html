@@ -1,0 +1,41 @@
+---
+layout: base
+---
+
+{%- include nav_main.html -%}
+
+<div class="page-body">
+  {% if page.image %}
+    <div class="csc-textpic-imagewrap">
+      <dl class="csc-textpic-image csc-textpic-last">
+        <img src="{{site.baseurl}}/{{page.image.url}}" alt="{{page.image.title}}" title="{{page.image.title}}" >
+        <dd class="csc-textpic-caption">{{page.image.title}}<span class="imagecopyright">{{page.image.copyright}}</span></dd>
+      </dl>
+    </div>
+  {% endif %}
+
+  <div class="container">
+    <div class="row">
+      <div class="twelve columns">
+        <div class="content">
+          <article>
+
+            <h1>
+              {{ page.title | default: site.title |escape }}
+            </h1>
+
+            {% if page.description %}
+            <p class="lead-text">
+              {{ page.description | escape }}
+
+            </p>
+            {% endif %}
+
+            {{content}}
+
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
