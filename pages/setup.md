@@ -710,7 +710,7 @@ git clone https://github.com/WiednerF/containierized-low-latency/ /root/containi
 
 # Download PCAPs to /root/results
 cd /root/results
-Will be available when Double Blind is not necessary anymore due to deanonymization on shared link.
+Will be made available after the acceptance
 
 env --chdir /var/lib/postgresql setpriv --init-groups --reuid postgres -- createuser -s root || true
 
