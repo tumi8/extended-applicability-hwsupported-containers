@@ -710,6 +710,7 @@ git clone https://github.com/WiednerF/containierized-low-latency/ /root/containi
 
 # Download PCAPs to /root/results
 cd /root/results
+# The original data from this paper can be downloaded here: https://doi.org/10.14459/2025mp1832440
 # At this point, the previously recorded PCAPs need to be, change the path as necessary
 
 env --chdir /var/lib/postgresql setpriv --init-groups --reuid postgres -- createuser -s root || true
