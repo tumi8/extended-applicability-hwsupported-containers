@@ -6,7 +6,7 @@ order: 2
 toc: Complex Topology, 4 Queues
 ---
 
-> Figure 11, 12, 13, 14
+> Figure 11, 12, 13, 14, 15
 
 <figure>
 <img src="../assets/svg/topo/topo.svg">

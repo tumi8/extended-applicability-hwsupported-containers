@@ -6,7 +6,7 @@ order: 2
 toc: 'No Pinning, 17kpps'
 ---
 
-> Figure 7, 8
+> Figure 8, 9
 
 {% assign lengths = "1,2,4,8,16,32,64" | split: "," %}
 {% assign repeats = "0,1,2" | split: "," %}
