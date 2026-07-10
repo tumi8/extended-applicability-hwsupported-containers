@@ -19,7 +19,7 @@ image: []
 
 
 <p class="content"> 
-  This page contains the supplementary material for the paper "Utilizing Hardware-Supported Containers for Low-Latency Networking" by Florian Wiedner,Alexander Daichendt, Jonas Andre, Georg Carle. The paper is accepted for IEEE Transactions on Network and Service Management.
+  This page contains the supplementary material for the paper "Utilizing Hardware-Supported Containers for Low-Latency Networking" by Florian Wiedner,Alexander Daichendt, Jonas Andre, Georg Carle. The paper is published at IEEE Transactions on Network and Service Management under the DOI <a href="https://doi.org/10.1109/TNSM.2026.3711934">10.1109/TNSM.2026.3711934</a>.
 </p>
 
 <p class="content"> 
